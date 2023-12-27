@@ -1,0 +1,24 @@
+.container{
+    width:100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+[thema='dark']{
+    --bgcolor:#272935;
+    --color: #fff;
+    --header-bottom:#181920;
+    --header-top:#414558;
+    --pink:#FF7AC6;
+   --h1:#FFF;
+   --ghost:#BF95F9;
+}
+
+[thema='light']{
+    --bgcolor:#FFF;
+    --header-bottom:#F0F6FF;
+    --header-top:#021431;
+    --pink:#057AFF;
+    --h1:#394E6A;
+    --ghost:#463AA1;
+}   
